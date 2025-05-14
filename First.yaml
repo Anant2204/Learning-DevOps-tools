@@ -1,0 +1,14 @@
+name: My First github action file 
+
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs on: ubuntu-latest
+    steps:
+    - name: First github action
+      run: |
+         echo " How are you Anant" 
+      
